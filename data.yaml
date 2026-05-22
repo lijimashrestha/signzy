@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 42
+names: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'down', 'eight', 'five', 'four', 'hello', 'help', 'nine', 'one', 'right', 'seven', 'six', 'thanks', 'three', 'two', 'up', 'zero']
+
+roboflow:
+  workspace: sign-to-text-and-speech
+  project: 1-e8ufs
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sign-to-text-and-speech/1-e8ufs/dataset/1
